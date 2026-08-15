@@ -4,14 +4,28 @@
 
 const maquinas = {
 
+
+     "LBSC 30": {
+        consumo: 0.395,
+        imagem: "assets/maq30.png"
+    },
+
+
     "LBSC 45": {
         consumo: 0.009,
         imagem: "assets/maq45.png"
     },
 
+
+    "LBSC 70": {
+        consumo: 0.000967031,
+        imagem: "assets/maq70.png"
+    },
+
+
     "LBSC 100": {
         consumo: 0.000967031,
-        imagem: "img/lbsc100.png"
+        imagem: "assets/maq100.png"
     },
 
     "LBSC 120": {
@@ -21,12 +35,12 @@ const maquinas = {
 
     "LBSC 150": {
         consumo: 0.00139,
-        imagem: "img/lbsc150.png"
+        imagem: "assets/maq150.png"
     },
 
     "LBSC 400": {
         consumo: 0.00139,
-        imagem: "img/lbsc400.png"
+        imagem: "assets/maq400.png"
     }
 
 };

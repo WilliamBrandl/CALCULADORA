@@ -39,11 +39,9 @@
 body {
 
     background:
-        radial-gradient(
-            circle at top right,
-            rgba(215,181,109,0.08),
-            transparent 30%
-        ),
+        radial-gradient(circle at top right,
+            rgba(215, 181, 109, 0.08),
+            transparent 30%),
         var(--background);
 
     color: var(--text);
@@ -72,7 +70,7 @@ body {
     width: 250px;
     height: 100vh;
 
-    background: rgba(14,17,19,0.95);
+    background: rgba(14, 17, 19, 0.95);
 
     border-right: 1px solid var(--border);
 
@@ -102,8 +100,8 @@ body {
 
 .logo-area img {
 
-    max-width: 150px;
-    max-height: 70px;
+    max-width: 200px;
+    max-height: 100px;
 
     object-fit: contain;
 }
@@ -196,11 +194,9 @@ body {
 .sidebar nav a.active {
 
     background:
-        linear-gradient(
-            90deg,
-            rgba(215,181,109,0.18),
-            transparent
-        );
+        linear-gradient(90deg,
+            rgba(215, 181, 109, 0.18),
+            transparent);
 
     color: var(--accent);
 
@@ -307,7 +303,7 @@ h1 {
 
     border-radius: 30px;
 
-    background: rgba(255,255,255,0.02);
+    background: rgba(255, 255, 255, 0.02);
 }
 
 .status-dot {
@@ -320,7 +316,7 @@ h1 {
     background: var(--green);
 
     box-shadow:
-        0 0 10px rgba(74,222,128,0.7);
+        0 0 10px rgba(74, 222, 128, 0.7);
 }
 
 
@@ -341,11 +337,9 @@ h1 {
 .card {
 
     background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.035),
-            rgba(255,255,255,0.012)
-        );
+        linear-gradient(145deg,
+            rgba(255, 255, 255, 0.035),
+            rgba(255, 255, 255, 0.012));
 
     border: 1px solid var(--border);
 
@@ -354,13 +348,13 @@ h1 {
     padding: 25px;
 
     box-shadow:
-        0 20px 50px rgba(0,0,0,0.18);
+        0 20px 50px rgba(0, 0, 0, 0.18);
 }
 
 .card:hover {
 
     border-color:
-        rgba(215,181,109,0.18);
+        rgba(215, 181, 109, 0.18);
 }
 
 
@@ -441,7 +435,7 @@ input:focus {
     border-color: var(--accent);
 
     box-shadow:
-        0 0 0 3px rgba(215,181,109,0.08);
+        0 0 0 3px rgba(215, 181, 109, 0.08);
 }
 
 select option {
@@ -651,7 +645,7 @@ input[type="time"] {
 .days button:hover {
 
     border-color:
-        rgba(215,181,109,0.5);
+        rgba(215, 181, 109, 0.5);
 
     color: white;
 }
@@ -659,7 +653,7 @@ input[type="time"] {
 .days button.selected {
 
     background:
-        rgba(215,181,109,0.15);
+        rgba(215, 181, 109, 0.15);
 
     color: var(--accent);
 
@@ -689,11 +683,9 @@ input[type="time"] {
     cursor: pointer;
 
     background:
-        linear-gradient(
-            100deg,
+        linear-gradient(100deg,
             #c7a35e,
-            #e4c87f
-        );
+            #e4c87f);
 
     color: #17130c;
 
@@ -712,7 +704,7 @@ input[type="time"] {
     transition: 0.25s;
 
     box-shadow:
-        0 10px 30px rgba(215,181,109,0.12);
+        0 10px 30px rgba(215, 181, 109, 0.12);
 }
 
 .calculate-button:hover {
@@ -720,7 +712,7 @@ input[type="time"] {
     transform: translateY(-2px);
 
     box-shadow:
-        0 15px 35px rgba(215,181,109,0.2);
+        0 15px 35px rgba(215, 181, 109, 0.2);
 }
 
 .calculate-button strong {
@@ -762,7 +754,7 @@ input[type="time"] {
 
     border-radius: 20px;
 
-    background: rgba(255,255,255,0.03);
+    background: rgba(255, 255, 255, 0.03);
 
     border: 1px solid var(--border);
 
@@ -831,14 +823,12 @@ input[type="time"] {
 .result-card.highlight {
 
     border-color:
-        rgba(215,181,109,0.35);
+        rgba(215, 181, 109, 0.35);
 
     background:
-        linear-gradient(
-            145deg,
-            rgba(215,181,109,0.10),
-            rgba(215,181,109,0.02)
-        );
+        linear-gradient(145deg,
+            rgba(215, 181, 109, 0.10),
+            rgba(215, 181, 109, 0.02));
 }
 
 .result-card.highlight strong {
@@ -941,7 +931,7 @@ input[type="time"] {
     font-size: 14px;
 }
 
-.life-header > span:last-child {
+.life-header>span:last-child {
 
     font-size: 13px;
 
@@ -968,11 +958,9 @@ input[type="time"] {
     height: 100%;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             #b38c43,
-            #e5ca84
-        );
+            #e5ca84);
 
     border-radius: 20px;
 
@@ -984,22 +972,32 @@ input[type="time"] {
    FOOTER
 ========================================= */
 
-footer {
-
-    margin-top: 50px;
-
-    padding-top: 20px;
-
-    border-top: 1px solid var(--border);
-
-    display: flex;
-
-    justify-content: space-between;
-
-    color: #50565d;
-
-    font-size: 10px;
+.footer {
+    padding: 40px 0;
+    background-color: var(--dark-coffee);
+    color: rgba(250, 246, 240, 0.6);
+    text-align: center;
+    font-size: 0.8rem;
 }
+
+
+.footer-link {
+    color: inherit;
+    /* Mantém a cor do texto do footer */
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    font-weight: 600;
+    /* Deixa o nome levemente em destaque */
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #d4af37;
+    /* Muda para o dourado da marca ao passar o mouse */
+    text-decoration: underline;
+    /* Adiciona o sublinhado apenas no hover */
+}
+
 
 
 
@@ -1013,10 +1011,10 @@ footer {
     color: var(--green);
 
     border-color:
-        rgba(74,222,128,0.25);
+        rgba(74, 222, 128, 0.25);
 
     background:
-        rgba(74,222,128,0.07);
+        rgba(74, 222, 128, 0.07);
 }
 
 
@@ -1025,10 +1023,10 @@ footer {
     color: var(--yellow);
 
     border-color:
-        rgba(250,204,21,0.25);
+        rgba(250, 204, 21, 0.25);
 
     background:
-        rgba(250,204,21,0.07);
+        rgba(250, 204, 21, 0.07);
 }
 
 
@@ -1037,10 +1035,10 @@ footer {
     color: var(--red);
 
     border-color:
-        rgba(251,113,133,0.25);
+        rgba(251, 113, 133, 0.25);
 
     background:
-        rgba(251,113,133,0.07);
+        rgba(251, 113, 133, 0.07);
 }
 
 
